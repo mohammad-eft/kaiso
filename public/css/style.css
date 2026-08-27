@@ -1,0 +1,42 @@
+@import url("fontiran.css");
+
+* {
+    font-family: "IRANSansX";
+}
+
+:root{
+    /*--primary-text-color: #0D1B2A;*/
+    --primary-text-color: #111827;
+    --secondary-text-color: #6B7280;
+    --primary-color: #fc8e21;
+    --hover-primary-color: #e57200;
+    --color-blue: #0867d5;
+    --color-green: #3aae3f;
+    --color-gray: #6a6a6a;
+    --color-red: #d23334;
+}
+
+.in-fa {
+  font-family: 'IRANSansXFaNum';
+}
+
+
+
+.samim {
+    font-family: "Samim";
+}
+
+.yekan {
+    font-family: "Yekan";
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    /* Firefox */
+}
