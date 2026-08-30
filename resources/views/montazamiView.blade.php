@@ -14,7 +14,7 @@
             <h2 class='text-black font-bold text-2xl'> خدمات </h2>
             <div class='w-10 h-1 bg-orange-400 rounded-xl'></div>
         </div>
-        <div class='w-11/12 mx-auto grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4 p-4'>
+        <div class='w-11/12 mx-auto grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:gap-4 gap-6 p-4'>
 
 
             <div class='w-full flex items-center text-center justify-center py-5 bg-black rounded-xl duration-400 transition-all ' >
@@ -52,11 +52,13 @@
 
 
         </div>
-        <div class='w-full bg-black'>
-            <div class='w-11/12 mx-auto grid lg:grid-cols-5 grid-cols-2 p-2'>
+        <div class='w-full bg-black flex flex-col'>
 
-                <div class='flex flex-col gap-3 items-center text-center justify-center'>
-                    <img src="{{asset('img/resome4.png')}}" alt="">
+
+            <div class='w-11/12 mx-auto grid lg:grid-cols-5 grid-cols-1 px-2 py-5'>
+
+                <div class='flex flex-col gap-3 items-center text-center justify-center -mt-5'>
+                    <img class='w-35' src="{{asset('img/logo.png')}}" alt="">
                     <p class='text-gray-500 text-xs leading-6'> طراحی سایت اختصاصی و واکنشگرا با جدید ترین تکنولوژی ها و تجربهکاربری منحصر به فرد طراحی سایت اختصاصی و واکنشگرا با جدید ترین تکنولوژی ها و تجربهکاربری منحصر به فرد طراحی سایت اختصاصی و واکنشگرا با جدید ترین تکنولوژی ها و تجربهکاربری منحصر به فرد </p>
                     <div class='w-full flex justify-center gap-3 items-center text-center'>
                         <a href="https://github.com/kaiso" class='relative group rounded-full size-10 flex justify-center items-center overflow-hidden cursor-pointer bg-[var(--color-gray-2)] z-1'>
@@ -77,7 +79,9 @@
                         </a>
                     </div>
                 </div>
-                <div class=' flex flex-col items-center text-center gap-4'>
+
+
+                <div class='hidden lg:flex flex-col items-center text-center gap-4'>
                     <h3 class='text-white font-bold text-xl'>منابع</h3>
                     <ul class='flex flex-col items-center text-center justify-between gap-4'>
                         <a href=""><li class='text-gray-500 text-sm font-bold duration-500 transition-all hover:text-gray-200'> مقالات </li></a>
@@ -86,7 +90,7 @@
                         <a href=""><li class='text-gray-500 text-sm font-bold duration-500 transition-all hover:text-gray-200'> حریم خصوصی </li></a>
                     </ul>
                 </div>
-                <div class=' flex flex-col items-center text-center gap-4'>
+                <div class='hidden lg:flex flex-col items-center text-center gap-4'>
                     <h3 class='text-white font-bold text-xl'>لینک های سریع</h3>
                     <ul class='flex flex-col items-center text-center justify-between gap-4'>
                         <a href=""><li class='text-gray-500 text-sm font-bold duration-500 transition-all hover:text-gray-200'> درباره ما  </li></a>
@@ -96,7 +100,7 @@
                         <a href=""><li class='text-gray-500 text-sm font-bold duration-500 transition-all hover:text-gray-200'> تماس با ما  </li></a>
                     </ul>
                 </div>
-                <div class=' flex flex-col items-center text-center gap-4'>
+                <div class='hidden lg:flex flex-col items-center text-center gap-4'>
                     <h3 class='text-white font-bold text-xl'>خدمات</h3>
                     <ul class='flex flex-col items-center text-center justify-between gap-4'>
                         <a href=""><li class='text-gray-500 text-sm font-bold duration-500 transition-all hover:text-gray-200'> طراحی وبسایت </li></a>
@@ -106,7 +110,7 @@
                         <a href=""><li class='text-gray-500 text-sm font-bold duration-500 transition-all hover:text-gray-200'> برندسازی </li></a>
                     </ul>
                 </div>
-                <div class='flex flex-col justify-start items-center text-center gap-4'>
+                <div class='hidden lg:flex flex-col justify-start items-center text-center gap-4'>
                     <h3 class='text-white font-bold text-xl'> تماس با ما </h3>
                     <div class='flex flex-col justify-center items-end text-center gap-6'>
                         <div class='flex gap-2 text-white items-center text-center'>
@@ -125,9 +129,161 @@
                         </div>
                     </div>
                 </div>
+
+                <div class='element lg:hidden flex flex-col items-center gap-2 px-4 py-2 rounded-xl hover:shadow-md transition-all bg-gray-900 mt-5'>
+                    <div class='flex w-full justify-between items-center text-center cursor-pointer'>
+                        <div class='flex items-center gap-2 text-white text-md font-bold'>
+                            <span class="text-[#9A9CAE] "> منابع </span>
+                        </div>
+                        <svg class='size-4 fill-white transition-all duration-700 rotate-0' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M241 337c-9.4 9.4-24.6 9.4-33.9 0L47 177c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l143 143L367 143c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L241 337z"/>
+                        </svg>
+                    </div>
+                    <div class='w-full grid grid-cols-1 text-end max-h-0 overflow-hidden transition-all duration-500 mr-5'>
+                        <div class='w-12/12 justify-start text-white flex p-2 text-sm gap-2 sub-menu-item'>
+                            <a href="" class="hover:text-white transition-colors">مقالات </a>
+                        </div>
+                        <div class='w-12/12 justify-start text-white flex p-2 text-sm gap-2 sub-menu-item'>
+                            <a href="" class="hover:text-white transition-colors"> راهنما </a>
+                        </div>
+                        <div class='w-12/12 justify-start text-white flex p-2 text-sm gap-2 sub-menu-item'>
+                            <a href="" class="hover:text-white transition-colors"> سوالات متداول  </a>
+                        </div>
+                        <div class='w-12/12 justify-start text-white flex p-2 text-sm gap-2 sub-menu-item'>
+                            <a href="" class="hover:text-white transition-colors"> حریم خصوصی  </a>
+                        </div>
+                    </div>
+                </div>
+                <div class='element lg:hidden flex flex-col items-center gap-2 px-4 py-2 rounded-xl hover:shadow-md transition-all bg-gray-900 mt-5'>
+                    <div class='flex w-full justify-between items-center text-center cursor-pointer'>
+                        <div class='flex items-center gap-2 text-white text-md font-bold'>
+                            <span class="text-[#9A9CAE] "> لینک های سریع </span>
+                        </div>
+                        <svg class='size-4 fill-white transition-all duration-700 rotate-0' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M241 337c-9.4 9.4-24.6 9.4-33.9 0L47 177c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l143 143L367 143c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L241 337z"/>
+                        </svg>
+                    </div>
+                    <div class='w-full grid grid-cols-1 text-end max-h-0 overflow-hidden transition-all duration-500 mr-5'>
+                        <div class='w-12/12 justify-start text-white flex p-2 text-sm gap-2 sub-menu-item'>
+                            <a href="" class="hover:text-white transition-colors">درباره ما  </a>
+                        </div>
+                        <div class='w-12/12 justify-start text-white flex p-2 text-sm gap-2 sub-menu-item'>
+                            <a href="" class="hover:text-white transition-colors"> خدمات  </a>
+                        </div>
+                        <div class='w-12/12 justify-start text-white flex p-2 text-sm gap-2 sub-menu-item'>
+                            <a href="" class="hover:text-white transition-colors"> نمونه کارها  </a>
+                        </div>
+                        <div class='w-12/12 justify-start text-white flex p-2 text-sm gap-2 sub-menu-item'>
+                            <a href="" class="hover:text-white transition-colors"> مقالات  </a>
+                        </div>
+                        <div class='w-12/12 justify-start text-white flex p-2 text-sm gap-2 sub-menu-item'>
+                            <a href="" class="hover:text-white transition-colors"> تماس با ما  </a>
+                        </div>
+                    </div>
+                </div>
+                <div class='element lg:hidden flex flex-col items-center gap-2 px-4 py-2 rounded-xl hover:shadow-md transition-all bg-gray-900 mt-5'>
+                    <div class='flex w-full justify-between items-center text-center cursor-pointer'>
+                        <div class='flex items-center gap-2 text-white text-md font-bold'>
+                            <span class="text-[#9A9CAE] "> خدمات</span>
+                        </div>
+                        <svg class='size-4 fill-white transition-all duration-700 rotate-0' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M241 337c-9.4 9.4-24.6 9.4-33.9 0L47 177c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l143 143L367 143c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L241 337z"/>
+                        </svg>
+                    </div>
+                    <div class='w-full grid grid-cols-1 text-end max-h-0 overflow-hidden transition-all duration-500 mr-5'>
+                        <div class='w-12/12 justify-start text-white flex p-2 text-sm gap-2 sub-menu-item'>
+                            <a href="" class="hover:text-white transition-colors">طراحی وبسایت </a>
+                        </div>
+                        <div class='w-12/12 justify-start text-white flex p-2 text-sm gap-2 sub-menu-item'>
+                            <a href="" class="hover:text-white transition-colors"> توسعه اپلیکیشن  </a>
+                        </div>
+                        <div class='w-12/12 justify-start text-white flex p-2 text-sm gap-2 sub-menu-item'>
+                            <a href="" class="hover:text-white transition-colors"> ui /ux  طراحی  </a>
+                        </div>
+                        <div class='w-12/12 justify-start text-white flex p-2 text-sm gap-2 sub-menu-item'>
+                            <a href="" class="hover:text-white transition-colors">  سئو و بازاریابی  </a>
+                        </div>
+                        <div class='w-12/12 justify-start text-white flex p-2 text-sm gap-2 sub-menu-item'>
+                            <a href="" class="hover:text-white transition-colors"> برندسازی  </a>
+                        </div>
+                    </div>
+                </div>
+                <div class='element lg:hidden flex flex-col items-center gap-2 px-4 py-2 rounded-xl hover:shadow-md transition-all bg-gray-900 mt-5'>
+                    <div class='flex w-full justify-between items-center text-center cursor-pointer'>
+                        <div class='flex items-center gap-2 text-white text-md font-bold'>
+                            <span class="text-[#9A9CAE] "> تماس با ما  </span>
+                        </div>
+                        <svg class='size-4 fill-white transition-all duration-700 rotate-0' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M241 337c-9.4 9.4-24.6 9.4-33.9 0L47 177c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l143 143L367 143c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L241 337z"/>
+                        </svg>
+                    </div>
+                    <div class='w-full grid grid-cols-1 text-end max-h-0 overflow-hidden transition-all duration-500 mr-5 gap-5'>
+                        <div class='flex gap-2 text-white items-center text-center'>
+                            <a class='text-gray-500 transition-all duration-500 hover:text-gray-200' href="mailto:kaiso@gmail.com"> kaiso@gmail.com </a>
+                            <svg class='w-5 fill-[#fb923c] ' viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#fb923c"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="mail"> <g> <polyline fill="none" points="4 8.2 12 14.1 20 8.2" stroke="#fb923c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> <rect fill="none" height="14" rx="2" ry="2" stroke="#fb923c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="18" x="3" y="6.5"></rect> </g> </g> </g> </g></svg>                
+                        </div>
+                        <div class='flex gap-2 text-white items-center text-center'>
+                            <a class='text-gray-500 transition-all duration-500 hover:text-gray-200' href="tel:09916822748"> 0991-682-2748 </a>
+                            <svg class='w-5 fill-[#fb923c] group-hover:fill-white transition-all duration-300' viewBox="0 0 24 24">
+                                <path class='fill-[#fb923c]' d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                            </svg>
+                        </div>
+                        <div class='flex gap-2 text-white items-center text-center'>
+                            <a class='text-gray-500 transition-all duration-500 hover:text-gray-200' href="https://instagram.com/kaiso_web"> kaiso_web </a>
+                            <svg class='w-7 fill-[#fb923c] ' viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 5H9.5C7.29086 5 5.5 6.79086 5.5 9V15C5.5 17.2091 7.29086 19 9.5 19H15.5C17.7091 19 19.5 17.2091 19.5 15V9C19.5 6.79086 17.7091 5 15.5 5Z" stroke="#fb923c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 15C10.8431 15 9.5 13.6569 9.5 12C9.5 10.3431 10.8431 9 12.5 9C14.1569 9 15.5 10.3431 15.5 12C15.5 12.7956 15.1839 13.5587 14.6213 14.1213C14.0587 14.6839 13.2956 15 12.5 15Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="15.5" y="9" width="2" height="2" rx="1" transform="rotate(-90 15.5 9)" fill="#ffffff"/><rect x="16" y="8.5" width="1" height="1" rx="0.5" transform="rotate(-90 16 8.5)" stroke="#000000" stroke-linecap="round"/></svg>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
             </div>
+
+            <div class='w-full items-center text-center justify-center flex py-3'>
+                <span class='text-gray-500 text-xs font-bold'> تمامی حقوق این سایت مطعلق به تیم kaiso میباشد </span>
+            </div>
+
         </div>
 
     </div>
+
+
+
+<script>
+
+
+    let element = document.querySelectorAll('.element');
+    element.forEach((el) => {
+        el.children[0].addEventListener('click', () => {
+            if (el.children[1].classList.contains('max-h-0')) {
+                el.children[1].classList.remove('max-h-0')
+                el.children[1].classList.add('max-h-[400px]')
+                el.children[0].children[1].classList.remove('rotate-0')
+                el.children[0].children[1].classList.add('rotate-180')
+            } else {
+                el.children[1].classList.remove('max-h-[400px]')
+                el.children[1].classList.add('max-h-0')
+                el.children[0].children[1].classList.remove('rotate-180')
+                el.children[0].children[1].classList.add('rotate-0')
+            }
+        })
+    })
+
+
+
+</script>
+
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+                            
