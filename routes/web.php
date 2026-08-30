@@ -10,3 +10,7 @@ Route::get('/', function () {
 Route::get('/test' , function(){
     return "salam";
 });
+
+Route::get('/montazami',function(){
+    return view('montazamiView');
+});
