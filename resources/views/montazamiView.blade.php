@@ -57,7 +57,7 @@
 
             <div class='w-11/12 mx-auto grid lg:grid-cols-5 grid-cols-1 px-2 py-5'>
 
-                <div class='flex flex-col gap-3 items-center text-center justify-center -mt-5'>
+                <div class='flex flex-col gap-3 items-center text-center justify-center '>
                     <img class='w-35' src="{{asset('img/logo.png')}}" alt="">
                     <p class='text-gray-500 text-xs leading-6'> طراحی سایت اختصاصی و واکنشگرا با جدید ترین تکنولوژی ها و تجربهکاربری منحصر به فرد طراحی سایت اختصاصی و واکنشگرا با جدید ترین تکنولوژی ها و تجربهکاربری منحصر به فرد طراحی سایت اختصاصی و واکنشگرا با جدید ترین تکنولوژی ها و تجربهکاربری منحصر به فرد </p>
                     <div class='w-full flex justify-center gap-3 items-center text-center'>
