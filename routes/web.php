@@ -7,6 +7,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('/test' , function(){
-    return "salam";
+Route::get('/ft-header' , function(){
+    return view("ftheader");
 });
