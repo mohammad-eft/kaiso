@@ -8,13 +8,17 @@ Route::get('/', function () {
 
 
 
-Route::get('/ft-header' , function(){
+Route::get('/ft-header', function () {
     return view("ftheader");
 });
-Route::get('/test' , function(){
+Route::get('/test', function () {
     return "salam";
 });
 
-Route::get('/montazami',function(){
+Route::get('/montazami', function () {
     return view('montazamiView');
+});
+
+Route::get('/olyafam', function () {
+    return view('olyafam');
 });
