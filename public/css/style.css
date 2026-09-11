@@ -4,7 +4,7 @@
     font-family: "IRANSansX";
 }
 
-:root{
+:root {
     /*--primary-text-color: #0D1B2A;*/
     --primary-text-color: #111827;
     --secondary-text-color: #6B7280;
@@ -17,7 +17,7 @@
 }
 
 .in-fa {
-  font-family: 'IRANSansXFaNum';
+    font-family: 'IRANSansXFaNum';
 }
 
 
