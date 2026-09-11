@@ -119,59 +119,54 @@
                 </div>
             </div>
         </div>
-        <div class="absolute w-full right-0 -bottom-1/6">
+        <div class="absolute w-full right-0 -bottom-1/2 lg:-bottom-1/6">
             <div class="w-11/12 mx-auto grid grid-cols-2 lg:grid-cols-4 gap-4 bg-[#04162a] rounded-xl border border-white/30 p-5">
-                <div class="w-full flex justify-center items-center gap-6 relative">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#ff893b] w-14" viewBox="0 0 640 512">
+                <div class="w-full flex flex-col lg:flex-row justify-center items-center gap-6 relative pb-3 lg:pb-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#ff893b] w-1/4" viewBox="0 0 640 512">
                         <path d="M96 80a48 48 0 1 1 96 0A48 48 0 1 1 96 80zm128 0A80 80 0 1 0 64 80a80 80 0 1 0 160 0zm96 80a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm0 160a96 96 0 1 0 0-192 96 96 0 1 0 0 192zm-58.7 64H378.7c54.2 0 98.4 42.5 101.2 96H160.1c2.8-53.5 47-96 101.2-96zm0-32C187.7 352 128 411.7 128 485.3c0 14.7 11.9 26.7 26.7 26.7H485.3c14.7 0 26.7-11.9 26.7-26.7C512 411.7 452.3 352 378.7 352H261.3zM512 32a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 128A80 80 0 1 0 512 0a80 80 0 1 0 0 160zm16 64c44.2 0 80 35.8 80 80c0 8.8 7.2 16 16 16s16-7.2 16-16c0-61.9-50.1-112-112-112H444c2.6 10.2 4 21 4 32h80zm-336 0c0-11 1.4-21.8 4-32H112C50.1 192 0 242.1 0 304c0 8.8 7.2 16 16 16s16-7.2 16-16c0-44.2 35.8-80 80-80h80z"/>
                     </svg>
-                    <div class="flex flex-col gap-2">
-                        <h3 class="font-bold text-white">تیم حرفه ای</h3>
-                        <span class="text-sm text-white">ما تیمی از</span>
-                        <span class="text-sm text-white">متخصصین و</span>
-                        <span class="text-sm text-white">مشاورین هستیم</span>
+                    <div class="w-3/4 lg:w-10/12 mx-auto flex flex-col gap-2">
+                        <h3 class="font-bold text-white text-center lg:text-start">تیم حرفه ای</h3>
+                        <p class="text-sm text-white lg:w-10/12 mx-auto text-center lg:text-start h-[60px] lg:h-10">ما تیمی از متخصصین و مشاورین هستیم</p>
                     </div>
-                    <div class="absolute w-0.5 h-3/4 left-0 top-1/2 -translate-y-1/2" style="background: #ffffff;
+                    <div class="absolute w-3/4 bottom-0 left-1/2 -translate-x-1/2 lg:translate-x-0 h-0.5 lg:w-0.5 lg:h-3/4 lg:left-0 lg:top-1/2 lg:-translate-y-1/2" style="background: #ffffff;
                         background: radial-gradient(circle, rgba(255, 255, 255, 0.27) 27%, rgba(243, 247, 253, 0) 100%);"></div>
                 </div>
-
-                <div class="w-full flex justify-center items-center gap-6 relative">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#ff893b] w-14" viewBox="0 0 640 512">
+                <div class="w-full flex flex-col lg:flex-row justify-center items-center gap-6 relative pb-3 lg:pb-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#ff893b] w-1/4" viewBox="0 0 640 512">
                         <path d="M55.2 1.7c-7.9-4-17.5-.7-21.5 7.2s-.7 17.5 7.2 21.5l64 32c7.9 4 17.5 .7 21.5-7.2s.7-17.5-7.2-21.5l-64-32zm544 28.6c7.9-4 11.1-13.6 7.2-21.5s-13.6-11.1-21.5-7.2l-64 32c-7.9 4-11.1 13.6-7.2 21.5s13.6 11.1 21.5 7.2l64-32zM16 160c-8.8 0-16 7.2-16 16s7.2 16 16 16H80c8.8 0 16-7.2 16-16s-7.2-16-16-16H16zm544 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h64c8.8 0 16-7.2 16-16s-7.2-16-16-16H560zM119.2 318.3c7.9-4 11.1-13.6 7.2-21.5s-13.6-11.1-21.5-7.2l-64 32c-7.9 4-11.1 13.6-7.2 21.5s13.6 11.1 21.5 7.2l64-32zm416-28.6c-7.9-4-17.5-.7-21.5 7.2s-.7 17.5 7.2 21.5l64 32c7.9 4 17.5 .7 21.5-7.2s.7-17.5-7.2-21.5l-64-32zM464 176c0 30.6-9.5 58.8-25.7 82.1c-4.1 5.9-8.7 12.3-13.6 19c-12.7 17.5-27.1 37.2-38 57.1c-8.9 16.2-13.7 33.3-16.2 49.9H403c2.2-12 5.9-23.7 11.8-34.5c9.9-18 22.2-34.9 34.5-51.8l0 0 0 0 0 0c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C496 78.8 417.2 0 320 0S144 78.8 144 176c0 37.3 11.6 71.9 31.4 100.3c5 7.2 10.2 14.3 15.4 21.4l0 0 0 0 0 0c12.3 16.8 24.6 33.7 34.5 51.8c5.9 10.8 9.6 22.5 11.8 34.5h32.4c-2.5-16.6-7.3-33.7-16.2-49.9c-10.9-20-25.3-39.7-38-57.1l0 0c-4.9-6.7-9.5-13-13.6-19C185.5 234.8 176 206.6 176 176c0-79.5 64.5-144 144-144s144 64.5 144 144zm-224 0c0-44.2 35.8-80 80-80c8.8 0 16-7.2 16-16s-7.2-16-16-16c-61.9 0-112 50.1-112 112c0 8.8 7.2 16 16 16s16-7.2 16-16zm80 304c-20.9 0-38.7-13.4-45.3-32h90.5c-6.6 18.6-24.4 32-45.3 32zm-80-53.3V432c0 44.2 35.8 80 80 80s80-35.8 80-80v-5.3c0-5.9-4.8-10.7-10.7-10.7H250.7c-5.9 0-10.7 4.8-10.7 10.7z"/>
                     </svg>
-                    <div class="flex flex-col gap-2">
-                        <h3 class="font-bold text-white">ایده های خلاق</h3>
-                        <span class="text-sm text-white">محیطی برای</span>
-                        <span class="text-sm text-white">خلق ایده ها</span>
-                        <span class="text-sm text-white">و راهکار های نو</span>
+                    <div class="w-3/4 lg:w-10/12 mx-auto flex flex-col gap-2">
+                        <h3 class="font-bold text-white text-center lg:text-start">ایده های خلاق</h3>
+                        <p class="text-sm text-white lg:w-10/12 mx-auto text-center lg:text-start h-[60px] lg:h-10">محیلی برای خلق ایده ها و راهکار های نو</p>
+
                     </div>
-                    <div class="absolute w-0.5 h-3/4 left-0 top-1/2 -translate-y-1/2" style="background: #ffffff;
+                    <div class="absolute w-3/4 bottom-0 left-1/2 -translate-x-1/2 lg:translate-x-0 h-0.5 lg:w-0.5 lg:h-3/4 lg:left-0 lg:top-1/2 lg:-translate-y-1/2" style="background: #ffffff;
                         background: radial-gradient(circle, rgba(255, 255, 255, 0.27) 27%, rgba(243, 247, 253, 0) 100%);"></div>
                 </div>
 
-                <div class="w-full flex justify-center items-center gap-6 relative">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#ff893b] w-14" viewBox="0 0 512 512">
+                <div class="w-full flex flex-col lg:flex-row justify-center items-center gap-6 relative pb-3 lg:pb-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#ff893b] w-1/4" viewBox="0 0 512 512">
                         <path d="M219.3 292.7c-10-10-21.4-18.1-33.8-24.1C215.6 146.3 269 86.7 321.1 58.1c53.5-29.4 111.4-29.4 154.6-21.8c7.6 43.2 7.7 101.1-21.8 154.6C425.3 243 365.7 296.4 243.4 326.5c-6-12.4-14.1-23.9-24.1-33.8zM256 381.3c0-8.2-.8-16.3-2.4-24.3c37.8-9.5 70.4-21.3 98.4-34.7v80.1c0 12.1-6.8 23.2-17.7 28.6L256 470.1l0-88.9zm128 21.1l0-97.4C515.7 225.1 520.5 102.5 506.7 28.1c-2.2-11.6-11.2-20.7-22.8-22.8C409.5-8.5 286.9-3.7 207 128l-97.4 0c-24.2 0-46.4 13.7-57.2 35.4L1.7 264.8c-2.5 5-2.2 10.9 .7 15.6s8.1 7.6 13.6 7.6H130.7c24.7 0 48.5 9.8 65.9 27.3s27.3 41.2 27.3 65.9V496c0 5.5 2.9 10.7 7.6 13.6s10.6 3.2 15.6 .7l101.5-50.7c21.7-10.8 35.4-33 35.4-57.2zm-229-144c-7.9-1.6-16.1-2.4-24.3-2.4H41.9L81 177.7c5.4-10.8 16.5-17.7 28.6-17.7h80.1c-13.5 28-25.2 60.5-34.7 98.4zm-11.2 189c-11 11-29.4 19.4-52.6 24.9c-20.6 4.9-42.1 6.8-59 7.4c.6-17 2.5-38.4 7.4-59c5.5-23.2 13.9-41.6 24.9-52.6c21.9-21.9 57.4-21.9 79.3 0s21.9 57.4 0 79.3zM166.5 470c34.4-34.4 34.4-90.1 0-124.5s-90.1-34.4-124.5 0C7.7 379.7 1 446 .1 483.7c-.4 16 12.2 28.6 28.2 28.2C66 511 132.3 504.3 166.5 470zM392 144a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zM368 88a56 56 0 1 0 0 112 56 56 0 1 0 0-112z"/>
                     </svg>
-                    <div class="flex flex-col gap-2">
-                        <h3 class="font-bold text-white">سریع و قابل اعتماد</h3>
-                        <span class="text-sm text-white">ما برای شما سرعت</span>
-                        <span class="text-sm text-white">و کیفیت را فراهم میکنیم</span>
-                        <span class="text-sm text-white">با کمترین قیمت</span>
+                    <div class="w-3/4 lg:w-10/12 mx-auto flex flex-col gap-2">
+                        <h3 class="font-bold text-white text-center lg:text-start">سریع و مطمئن</h3>
+                        <p class="text-sm text-white lg:w-10/12 mx-auto text-center lg:text-start h-[60px] lg:h-10">سرعت و کیفیت بالا با قیمت پایین شعار ماست</p>
                     </div>
-                    <div class="absolute w-0.5 h-3/4 left-0 top-1/2 -translate-y-1/2" style="background: #ffffff;
+                    <div class="absolute w-0.5 h-3/4 left-0 top-1/2 -translate-y-1/2 hidden lg:block" style="background: #ffffff;
                         background: radial-gradient(circle, rgba(255, 255, 255, 0.27) 27%, rgba(243, 247, 253, 0) 100%);"></div>
                 </div>
 
-                <div class="w-full flex justify-center items-center gap-6 relative">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#ff893b] w-14" viewBox="0 0 512 512">
+                <div class="w-full flex flex-col lg:flex-row justify-center items-center gap-6 relative pb-3 lg:pb-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-[#ff893b] w-1/4" viewBox="0 0 512 512">
                         <path d="M256 0c8.8 0 16 7.2 16 16V48.6C374.1 56.4 455.6 137.9 463.4 240H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H463.4C455.6 374.1 374.1 455.6 272 463.4V496c0 8.8-7.2 16-16 16s-16-7.2-16-16V463.4C137.9 455.6 56.4 374.1 48.6 272H16c-8.8 0-16-7.2-16-16s7.2-16 16-16H48.6C56.4 137.9 137.9 56.4 240 48.6V16c0-8.8 7.2-16 16-16zM80.7 272c7.6 84.4 74.8 151.7 159.3 159.3V384c0-8.8 7.2-16 16-16s16 7.2 16 16v47.3c84.4-7.6 151.7-74.8 159.3-159.3H384c-8.8 0-16-7.2-16-16s7.2-16 16-16h47.3C423.7 155.6 356.4 88.3 272 80.7V128c0 8.8-7.2 16-16 16s-16-7.2-16-16V80.7C155.6 88.3 88.3 155.6 80.7 240H128c8.8 0 16 7.2 16 16s-7.2 16-16 16H80.7zM256 232a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/>
                     </svg>
-                    <div class="flex flex-col gap-2">
-                        <h3 class="font-bold text-white">هدف ما</h3>
-                        <span class="text-sm text-white">رشد فردی</span>
-                        <span class="text-sm text-white">تیمی</span>
-                        <span class="text-sm text-white">و ساخت آینده</span>
+                    <div class="w-3/4 lg:w-10/12 mx-auto flex flex-col gap-2">
+                        <h3 class="font-bold text-white text-center lg:text-start">هدف ما</h3>
+                        <p class="text-sm text-white lg:w-10/12 mx-auto text-center lg:text-start h-[60px] lg:h-10">رشد فردی، تیمی و ساخت آینده</p>
+{{--                        <span class="text-sm text-white">رشد فردی</span>--}}
+{{--                        <span class="text-sm text-white">تیمی</span>--}}
+{{--                        <span class="text-sm text-white">و ساخت آینده</span>--}}
                     </div>
                 </div>
             </div>
