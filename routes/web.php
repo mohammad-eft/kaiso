@@ -3,13 +3,13 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 
 
-Route::get('/ft-header', function () {
-    return view("ftheader");
+Route::get('/ft-header' , function(){
+    return view("header");
 });
 Route::get('/test', function () {
     return "salam";
