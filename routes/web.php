@@ -22,3 +22,6 @@ Route::get('/montazami', function () {
 Route::get('/olyafam', function () {
     return view('olyafam');
 });
+Route::get('/artan', function () {
+    return view('artan');
+});

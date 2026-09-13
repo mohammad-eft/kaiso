@@ -122,7 +122,7 @@
                                     stroke-linecap="round" />
                             </svg>
                         </div>
-                        <div class="w-full flex justify-center items-center text-center flex flex-col">
+                        <div class="w-full flex justify-center items-center text-center flex-col">
                             <span class="text-[var(--primary)]">پروژه‌های مشتری</span>
                             <span class="text-[var(--text)]">
                                 همکاری در پروژه‌های
@@ -144,7 +144,7 @@
                                     stroke-linecap="round" />
                             </svg>
                         </div>
-                        <div class="w-full flex justify-center items-center text-center flex flex-col">
+                        <div class="w-full flex justify-center items-center text-center flex-col">
                             <span class="text-[var(--primary)]">پروژه‌های مشتری</span>
                             <span class="text-[var(--text)]">
                                 همکاری در پروژه‌های
@@ -166,7 +166,7 @@
                                     stroke-linecap="round" />
                             </svg>
                         </div>
-                        <div class="w-full flex justify-center items-center text-center flex flex-col">
+                        <div class="w-full flex justify-center items-center text-center flex-col">
                             <span class="text-[var(--primary)]">پروژه‌های مشتری</span>
                             <span class="text-[var(--text)]">
                                 همکاری در پروژه‌های
@@ -187,7 +187,7 @@
                                     stroke-linecap="round" />
                             </svg>
                         </div>
-                        <div class="w-full flex justify-center items-center text-center flex flex-col">
+                        <div class="w-full flex justify-center items-center text-center flex-col">
                             <span class="text-[var(--primary)]">پروژه‌های مشتری</span>
                             <span class="text-[var(--text)]">
                                 همکاری در پروژه‌های
@@ -209,7 +209,7 @@
                                     stroke-linecap="round" />
                             </svg>
                         </div>
-                        <div class="w-full flex justify-center items-center text-center flex flex-col">
+                        <div class="w-full flex justify-center items-center text-center flex-col">
                             <span class="text-[var(--primary)]">پروژه‌های مشتری</span>
                             <span class="text-[var(--text)]">
                                 همکاری در پروژه‌های
