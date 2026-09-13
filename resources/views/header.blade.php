@@ -10,6 +10,42 @@
     <link rel="icon" href="{{ asset('img/logo.png') }}" type="image/png">
     <title>Kaiso | کایسو</title>
 </head>
+
+
+    <style>
+        /* روت رنگی کایسو */
+        :root {
+            /* :large_blue_circle: سرمه‌ای */
+            --primary-dark: #0A131F;
+
+            /* 🟠 نارنجی اصلی */
+            --primary: #EF8D3B;
+
+            /* 🟧 نارنجی تیره */
+            --primary-dark-orange: #E07020;
+
+            /* 🟤 قهوه‌ای گرم */
+            --warm-brown: #C8916A;
+
+            /* 🟫 قهوه‌ای تیره */
+            --dark-brown: #5F3820;
+
+            /* 🟡 کرم - پس‌زمینه اصلی */
+            --background: #EDE1D8;
+
+            /* 🤍 کرم روشن - کارت‌ها */
+            --card: #F3E9E0;
+
+            /* :white_circle: سفید گرم */
+            --white-warm: #FFF8F2;
+
+            /* :black_circle: مشکی - متن اصلی */
+            --text: #0B080A;
+        }
+    </style>
+
+
+
 <body class="bg-[#f1d7c8]">
     <header class="fixed w-full top-0 right-0 flex justify-center items-center z-30" style="background: #000F24;
         background: linear-gradient(180deg, rgba(0, 15, 36, 1) 10%, rgba(255, 255, 255, 0) 100%);">
@@ -172,6 +208,5 @@
             </div>
         </div>
     </div>
-    <script src="{{ asset('js/header.js') }}"></script>
-</body>
-</html>
+<!-- </body>
+</html> -->
