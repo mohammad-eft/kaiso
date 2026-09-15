@@ -7,19 +7,19 @@ use App\Http\controllers\UserController;
 use App\Http\Middleware\storeUser;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 
 
 Route::get('/ft-header' , function(){
-    return view("ftheader");
+    return view("header");
 });
-Route::get('/test' , function(){
+Route::get('/test', function () {
     return "salam";
 });
 
-Route::get('/montazami',function(){
+Route::get('/montazami', function () {
     return view('montazamiView');
 });
 
@@ -40,4 +40,10 @@ Route::group([
     Route::any('/send/code' , 'sendCode')->name('send_code');
     Route::any('/logout' , 'log_out')->name('log_out');
     Route::post('/delete/code' , 'del_code')->name('del_code');
+});
+Route::get('/olyafam', function () {
+    return view('olyafam');
+});
+Route::get('/artan', function () {
+    return view('artan');
 });
